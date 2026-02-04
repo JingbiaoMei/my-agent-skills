@@ -178,3 +178,48 @@ When installing and using agent skills, follow these security guidelines:
    - Remote script execution from untrusted sources
 
 When in doubt, inspect the source code or choose alternative skills from trusted publishers.
+
+
+⚠️ CRITICAL: Installation Best Practices for AI Agents
+**IMPORTANT FOR AI AGENTS PERFORMING INSTALLATIONS:**
+When installing skills from this document, be aware that the `--skill` flag does NOT always work as expected with certain repositories. Many repositories will install ALL their skills regardless of the `--skill` flag.
+**AFFECTED REPOSITORIES (install all skills even with --skill flag):**
+- `softaworks/agent-toolkit` (42 skills)
+- `anthropics/skills` (17 skills)
+- `ComposioHQ/awesome-claude-skills` (28 skills)
+- `ZhanlinCui/Ultimate-Agent-Skills-Collection` (49 skills)
+- `davila7/claude-code-templates` (613 skills - AVOID THIS REPO)
+**SAFE REPOSITORIES (correctly install only specified skills):**
+- `kerim/zotero-code-execution`
+- `kthorn/research-superpower`
+- `K-Dense-AI/claude-scientific-skills/scientific-skills/*` (when using path-based selection)
+- `weklica/Firecrawl-cli`
+- `vercel-labs/skills`
+- `SipengXie2024/Helios-Writing`
+- `ShinChven/nano-banana-skills`
+- `ingpoc/SKILLS/*` (when using path-based selection)
+- `nextlevelbuilder/ui-ux-pro-max-skill`
+**RECOMMENDED INSTALLATION STRATEGY:**
+1. **Before starting**, check the final skill count expectation:
+   - Target: ~30-50 core skills from this document
+   - If you see 100+ skills being installed, STOP and review
+2. **Clean installation approach:**
+      # If installation goes wrong, clean up first:
+   rm -rf ~/.agents/skills
+   
+   # Then install carefully, monitoring the count after each step:
+   ls ~/.agents/skills/ | wc -l
+3. For affected repositories, accept that you'll get bonus skills:
+   - Installing from softaworks/agent-toolkit will give you all 42 skills
+   - Installing from anthropics/skills will give you all 17 skills
+   - This is acceptable as these are quality skills, just monitor the total
+4. SKIP the davila7/claude-code-templates repository entirely - it has 613 skills and will overwhelm your installation
+5. Verify installation frequently:
+      # Check count after each major installation
+   ls ~/.agents/skills/ | wc -l
+   
+   # Verify key skills are present
+   npx skills list -g --agent opencode | grep "skill-name"
+   
+EXPECTED FINAL COUNT: 120-150 skills total (includes core skills + bonus skills from multi-skill repos)
+IF COUNT EXCEEDS 200: Something went wrong - clean up and restart with a more targeted approach.
