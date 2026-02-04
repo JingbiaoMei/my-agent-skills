@@ -20,11 +20,11 @@ This comprehensive guide is tailored for high-rigor AI PhD workflows. It provide
 | Skill | Installation Command | Source / Verification Link |
 | :--- | :--- | :--- |
 | **Zotero Code Execution** | `npx skills add kerim/zotero-code-execution` | [Link](https://github.com/kerim/zotero-code-execution) |
-| **Lead Research Assistant** | `npx skills add ComposioHQ/awesome-claude-skills --skill=lead-research-assistant` | [Link](https://agent-skills.md/skills/ComposioHQ/awesome-claude-skills/lead-research-assistant) |
+| **Lead Research Assistant** | `npx skills add ComposioHQ/awesome-claude-skills/lead-research-assistant` | [Link](https://agent-skills.md/skills/ComposioHQ/awesome-claude-skills/lead-research-assistant) |
 | **Research-Superpower** | `npx skills add kthorn/research-superpower` | [Link](https://github.com/kthorn/research-superpower) |
 | **Scientific Critical Thinking** | `npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-critical-thinking` | [Link](https://github.com/K-Dense-AI/claude-scientific-skills) |
 | **FireCrawl Research** | `npx skills add weklica/Firecrawl-cli` | [Link](https://github.com/weklica/Firecrawl-cli) |
-| **Find-Skills (Discovery)** | `npx skills add https://github.com/vercel-labs/skills --skill find-skills` | [Link](https://skills.sh/vercel-labs/skills/find-skills) |
+| **Find-Skills (Discovery)** | `npx skills add vercel-labs/skills/find-skills` | [Link](https://skills.sh/vercel-labs/skills/find-skills) |
 | **Scientific Brainstorming** | `npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-brainstorming` | [Link](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/scientific-brainstorming) |
 
 ---
@@ -35,13 +35,12 @@ This comprehensive guide is tailored for high-rigor AI PhD workflows. It provide
 | Skill | Installation Command | Source / Verification Link |
 | :--- | :--- | :--- |
 | **Browser-Use** | `Ask agent to look at https://docs.browser-use.com/llms-full.txt for setup` | [Link](https://docs.browser-use.com/llms-full.txt) |
-| **Academic Writing (CS)** | `npx add-skill https://github.com/SipengXie2024/Helios-Writing/academic-writing-cs` | [Link](https://github.com/SipengXie2024/Helios-Writing/academic-writing-cs) |
-| **ML Paper Writing** | `npx add-skill https://github.com/davila7/claude-code-templates/ml-paper-writing` | [Link](https://github.com/davila7/claude-code-templates) |
-| **Writing Clearly & Concisely** | `npx skills add softaworks/agent-toolkit --skill=writing-clearly-and-concisely` | [Link](https://skills.sh/softaworks/agent-toolkit/writing-clearly-and-concisely) |
-| **Agent MD Refactor** | `npx skills add softaworks/agent-toolkit --skill=agent-md-refactor` | [Link](https://skills.sh/softaworks/agent-toolkit/agent-md-refactor) |
-| **doc-coauthoring** | `npx skills add anthropics/skills --skill=doc-coauthoring` | [Link](https://github.com/anthropics/skills) |
-| **docx / pdf / xlsx** | `npx skills add anthropics/skills` | [Link](https://github.com/anthropics/skills) |
-| **obsidian-helper** | `npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection --skill=obsidian-helper` | [Link](https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection) |
+| **Academic Writing (CS)** | `npx skills add SipengXie2024/Helios-Writing/academic-writing-cs` | [Link](https://github.com/SipengXie2024/Helios-Writing/academic-writing-cs) |
+| **Writing Clearly & Concisely** | `npx skills add softaworks/agent-toolkit/skills/writing-clearly-and-concisely` | [Link](https://skills.sh/softaworks/agent-toolkit/writing-clearly-and-concisely) |
+| **Agent MD Refactor** | `npx skills add softaworks/agent-toolkit/skills/agent-md-refactor` | [Link](https://skills.sh/softaworks/agent-toolkit/agent-md-refactor) |
+| **anthropics/skills (all 17)** | `npx skills add anthropics/skills` | [Link](https://github.com/anthropics/skills) |
+| **obsidian-helper** | `npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection/obsidian-helper` | [Link](https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection) |
+| **obsidian-bases** | `npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection/obsidian-bases` | [Link](https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection) |
 
 ---
 
@@ -50,11 +49,11 @@ This comprehensive guide is tailored for high-rigor AI PhD workflows. It provide
 
 | Skill | Installation Command | Source / Verification Link |
 | :--- | :--- | :--- |
-| **draw.io (XML/SVG)** | `npx skills add softaworks/agent-toolkit --skill=draw-io` | [Link](https://skills.sh/softaworks/agent-toolkit/draw-io) |
+| **draw.io (XML/SVG)** | `npx skills add softaworks/agent-toolkit/skills/draw-io` | [Link](https://skills.sh/softaworks/agent-toolkit/draw-io) |
 | **Scientific Schematics** | `npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-schematics` | [Link](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/scientific-schematics) |
-| **Nano-Banana** | `npx skills add ShinChven/nano-banana-skills` | [Link](https://github.com/ShinChven/nano-banana-skills) |
+| **Nano-Banana (6 image skills)** | `npx skills add ShinChven/nano-banana-skills` | [Link](https://github.com/ShinChven/nano-banana-skills) |
 | **Tufte Slide Design** | `npx skills add ingpoc/SKILLS/tufte-slide-design` | [Link](https://github.com/ingpoc/SKILLS) |
-| **Mermaid diagrams** | `npx skills add softaworks/agent-toolkit --skill=mermaid-diagrams` | [Link](https://skills.sh/softaworks/agent-toolkit/mermaid-diagrams) |
+| **Mermaid diagrams** | `npx skills add softaworks/agent-toolkit/skills/mermaid-diagrams` | [Link](https://skills.sh/softaworks/agent-toolkit/mermaid-diagrams) |
 
 ---
 
@@ -64,9 +63,8 @@ This comprehensive guide is tailored for high-rigor AI PhD workflows. It provide
 | Skill | Installation Command | Source / Verification Link |
 | :--- | :--- | :--- |
 | **UI/UX Pro Max** | `npx skills add nextlevelbuilder/ui-ux-pro-max-skill` | [Link](https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max) |
-| **Web-Artifacts Builder** | `npx skills add anthropics/skills --skill=web-artifacts-builder` | [Link](https://github.com/anthropics/skills) |
-| **vercel-deploy** | `npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection --skill=vercel-deploy` | [Link](https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection) |
-| **Session Handoff** | `npx skills add softaworks/agent-toolkit --skill=session-handoff` | [Link](https://skills.sh/softaworks/agent-toolkit/session-handoff) |
+| **vercel-deploy** | `npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection/vercel-deploy` | [Link](https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection) |
+| **Session Handoff** | `npx skills add softaworks/agent-toolkit/skills/session-handoff` | [Link](https://skills.sh/softaworks/agent-toolkit/session-handoff) |
 
 ---
 
@@ -75,10 +73,8 @@ This comprehensive guide is tailored for high-rigor AI PhD workflows. It provide
 
 | Skill | Installation Command | Source / Verification Link |
 | :--- | :--- | :--- |
-| **slidev** | `https://github.com/slidevjs/slidev` | [Link](https://github.com/slidevjs/slidev) |
-| **Theme-Factory** | `npx skills add anthropics/skills --skill=theme-factory` | [Link](https://github.com/anthropics/skills) |
-| **marp-slide** | `npx skills add softaworks/agent-toolkit --skill=marp-slide` | [Link](https://skills.sh/softaworks/agent-toolkit/marp-slide) |
-| **pptx** | `npx skills add anthropics/skills --skill=pptx` | [Link](https://github.com/anthropics/skills) |
+| **slidev** | `git clone https://github.com/slidevjs/slidev` | [Link](https://github.com/slidevjs/slidev) |
+| **marp-slide** | `npx skills add softaworks/agent-toolkit/skills/marp-slide` | [Link](https://skills.sh/softaworks/agent-toolkit/marp-slide) |
 | **LaTeX Posters** | `npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/latex-posters` | [Link](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/latex-posters) |
 
 ---
@@ -88,7 +84,7 @@ This comprehensive guide is tailored for high-rigor AI PhD workflows. It provide
 
 | Skill | Installation Command | Source / Verification Link |
 | :--- | :--- | :--- |
-| **Dependency Updater** | `npx skills add softaworks/agent-toolkit --skill=dependency-updater` | [Link](https://skills.sh/softaworks/agent-toolkit/dependency-updater) |
+| **Dependency Updater** | `npx skills add softaworks/agent-toolkit/skills/dependency-updater` | [Link](https://skills.sh/softaworks/agent-toolkit/dependency-updater) |
 
 ---
 
@@ -101,66 +97,75 @@ This comprehensive guide is tailored for high-rigor AI PhD workflows. It provide
 To install skills globally (available across all projects) and for multiple AI agents simultaneously, use:
 
 ```bash
-npx skills add <repo> --skill <skill-name> -g -a claude-code -a opencode -a openclaw
+npx skills add <repo>/<path-to-skill> -g -a claude-code -a opencode -a openclaw -y
 ```
 
 **Flags explained:**
 - `-g`: Install globally
 - `-a <agent>`: Specify which agents to install for (can use multiple -a flags)
+- `-y`: Auto-accept prompts (recommended for scripts)
 
 **Examples:**
 ```bash
-npx skills add softaworks/agent-toolkit --skill draw-io -g -a claude-code -a opencode
-npx skills add anthropics/skills --skill doc-coauthoring -g -a claude-code -a openclaw
+# Path-based installation (RECOMMENDED - installs only 1 skill)
+npx skills add softaworks/agent-toolkit/skills/draw-io -g -a claude-code -a opencode -y
+
+# anthropics/skills: Install all 17 skills (acceptable)
+npx skills add anthropics/skills -g -a claude-code -a opencode -y
 ```
 
-## Quick Installation Script (Selective)
+## Quick Installation Script (Path-Based - Installs ~40 Core Skills)
 
-Instead of installing the entire `softaworks/agent-toolkit` (42 skills), install only the required ones:
+**This script uses PATH-BASED installation to avoid installing unwanted skills:**
 
 ```bash
-# Literature Review & Research
-npx skills add kerim/zotero-code-execution
-npx skills add ComposioHQ/awesome-claude-skills --skill=lead-research-assistant
-npx skills add kthorn/research-superpower
-npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-critical-thinking
-npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-brainstorming
-npx skills add weklica/Firecrawl-cli
-npx skills add https://github.com/vercel-labs/skills --skill find-skills
+# Literature Review & Research (7 skills)
+npx skills add kerim/zotero-code-execution -g -a claude-code -a opencode -a openclaw -y
+npx skills add ComposioHQ/awesome-claude-skills/lead-research-assistant -g -a claude-code -a opencode -a openclaw -y
+npx skills add kthorn/research-superpower -g -a claude-code -a opencode -a openclaw -y
+npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-critical-thinking -g -a claude-code -a opencode -a openclaw -y
+npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-brainstorming -g -a claude-code -a opencode -a openclaw -y
+npx skills add weklica/Firecrawl-cli -g -a claude-code -a opencode -a openclaw -y
+npx skills add vercel-labs/skills/find-skills -g -a claude-code -a opencode -a openclaw -y
 
-# Writing, Editing & Automation
+# Writing, Editing & Automation (17 + 5 individual = 22 skills)
 # Browser-Use: Ask agent to look at https://docs.browser-use.com/llms-full.txt for setup
-npx add-skill https://github.com/SipengXie2024/Helios-Writing/academic-writing-cs
-npx add-skill https://github.com/davila7/claude-code-templates/ml-paper-writing
-npx skills add softaworks/agent-toolkit --skill=writing-clearly-and-concisely
-npx skills add softaworks/agent-toolkit --skill=agent-md-refactor
-npx skills add anthropics/skills --skill=doc-coauthoring
-npx skills add anthropics/skills  # For docx/pdf/xlsx
-npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection --skill=obsidian-helper
+npx skills add SipengXie2024/Helios-Writing/academic-writing-cs -g -a claude-code -a opencode -a openclaw -y
+npx skills add softaworks/agent-toolkit/skills/writing-clearly-and-concisely -g -a claude-code -a opencode -a openclaw -y
+npx skills add softaworks/agent-toolkit/skills/agent-md-refactor -g -a claude-code -a opencode -a openclaw -y
+npx skills add anthropics/skills -g -a claude-code -a opencode -a openclaw -y  # All 17 skills (includes docx, pdf, xlsx, pptx, theme-factory, web-artifacts-builder, doc-coauthoring)
+npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection/obsidian-helper -g -a claude-code -a opencode -a openclaw -y
+npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection/obsidian-bases -g -a claude-code -a opencode -a openclaw -y
 
-# Diagramming & Data Visualization
-npx skills add softaworks/agent-toolkit --skill=draw-io
-npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-schematics
-npx skills add ShinChven/nano-banana-skills
-npx skills add ingpoc/SKILLS/tufte-slide-design
-npx skills add softaworks/agent-toolkit --skill=mermaid-diagrams
+# Diagramming & Data Visualization (6 + 5 = 11 skills)
+npx skills add softaworks/agent-toolkit/skills/draw-io -g -a claude-code -a opencode -a openclaw -y
+npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-schematics -g -a claude-code -a opencode -a openclaw -y
+npx skills add ShinChven/nano-banana-skills -g -a claude-code -a opencode -a openclaw -y  # 6 image processing skills
+npx skills add ingpoc/SKILLS/tufte-slide-design -g -a claude-code -a opencode -a openclaw -y
+npx skills add softaworks/agent-toolkit/skills/mermaid-diagrams -g -a claude-code -a opencode -a openclaw -y
 
-# Project Webpages & UI/UX
-npx skills add nextlevelbuilder/ui-ux-pro-max-skill
-npx skills add anthropics/skills --skill=web-artifacts-builder
-npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection --skill=vercel-deploy
-npx skills add softaworks/agent-toolkit --skill=session-handoff
+# Project Webpages & UI/UX (3 skills)
+npx skills add nextlevelbuilder/ui-ux-pro-max-skill -g -a claude-code -a opencode -a openclaw -y
+npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection/vercel-deploy -g -a claude-code -a opencode -a openclaw -y
+npx skills add softaworks/agent-toolkit/skills/session-handoff -g -a claude-code -a opencode -a openclaw -y
 
-# Scientific Posters & Presentations
-# slidev: git clone https://github.com/slidevjs/slidev
-npx skills add anthropics/skills --skill=theme-factory
-npx skills add softaworks/agent-toolkit --skill=marp-slide
-npx skills add anthropics/skills --skill=pptx
-npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/latex-posters
+# Scientific Posters & Presentations (2 skills)
+# Note: theme-factory, pptx, web-artifacts-builder already included in anthropics/skills
+npx skills add softaworks/agent-toolkit/skills/marp-slide -g -a claude-code -a opencode -a openclaw -y
+npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/latex-posters -g -a claude-code -a opencode -a openclaw -y
 
-# Development & Maintenance
-npx skills add softaworks/agent-toolkit --skill=dependency-updater
+# Development & Maintenance (1 skill)
+npx skills add softaworks/agent-toolkit/skills/dependency-updater -g -a claude-code -a opencode -a openclaw -y
 ```
+
+**Expected Final Count:** ~40 core skills total
+- 7 (Literature Review)
+- 22 (Writing - includes all 17 from anthropics)
+- 11 (Visualization)
+- 3 (UI/UX)
+- 2 (Presentations - some already in anthropics)
+- 1 (Development)
+= **~40-45 skills** (with some overlap from anthropics bundle)
 
 
 ## ⚠️ Security Best Practices
@@ -180,45 +185,89 @@ When installing and using agent skills, follow these security guidelines:
 When in doubt, inspect the source code or choose alternative skills from trusted publishers.
 
 
-⚠️ CRITICAL: Installation Best Practices for AI Agents
+---
+
+## ⚠️ CRITICAL: Installation Best Practices for AI Agents
+
 **IMPORTANT FOR AI AGENTS PERFORMING INSTALLATIONS:**
-When installing skills from this document, be aware that the `--skill` flag does NOT always work as expected with certain repositories. Many repositories will install ALL their skills regardless of the `--skill` flag.
-**AFFECTED REPOSITORIES (install all skills even with --skill flag):**
-- `softaworks/agent-toolkit` (42 skills)
-- `anthropics/skills` (17 skills)
-- `ComposioHQ/awesome-claude-skills` (28 skills)
-- `ZhanlinCui/Ultimate-Agent-Skills-Collection` (49 skills)
-- `davila7/claude-code-templates` (613 skills - AVOID THIS REPO)
-**SAFE REPOSITORIES (correctly install only specified skills):**
-- `kerim/zotero-code-execution`
-- `kthorn/research-superpower`
-- `K-Dense-AI/claude-scientific-skills/scientific-skills/*` (when using path-based selection)
-- `weklica/Firecrawl-cli`
-- `SipengXie2024/Helios-Writing`
-- `ShinChven/nano-banana-skills`
-- `ingpoc/SKILLS/*` (when using path-based selection)
-- `nextlevelbuilder/ui-ux-pro-max-skill`
-**RECOMMENDED INSTALLATION STRATEGY:**
-1. **Before starting**, check the final skill count expectation:
-   - Target: ~30-50 core skills from this document
-   - If you see 100+ skills being installed, STOP and review
-2. **Clean installation approach:**
-      # If installation goes wrong, clean up first:
-   rm -rf ~/.agents/skills
-   
-   # Then install carefully, monitoring the count after each step:
-   ls ~/.agents/skills/ | wc -l
-3. For affected repositories, accept that you'll get bonus skills:
-   - Installing from softaworks/agent-toolkit will give you all 42 skills
-   - Installing from anthropics/skills will give you all 17 skills
-   - This is acceptable as these are quality skills, just monitor the total
-4. SKIP the davila7/claude-code-templates repository entirely - it has 613 skills and will overwhelm your installation
-5. Verify installation frequently:
-      # Check count after each major installation
-   ls ~/.agents/skills/ | wc -l
-   
-   # Verify key skills are present
-   npx skills list -g --agent opencode | grep "skill-name"
-   
-EXPECTED FINAL COUNT: 120-150 skills total (includes core skills + bonus skills from multi-skill repos)
-IF COUNT EXCEEDS 200: Something went wrong - clean up and restart with a more targeted approach.
+
+### The `--skill` Flag is BROKEN! Use Path-Based Installation Instead
+
+The `--skill=<skill-name>` flag **DOES NOT WORK** for most repositories. They will install ALL skills regardless of the flag.
+
+### ✅ CORRECT: Path-Based Installation
+
+**Use the full path to the skill directory:**
+
+```bash
+# ✅ CORRECT - Installs ONLY 1 skill
+npx skills add softaworks/agent-toolkit/skills/writing-clearly-and-concisely
+
+# ✅ CORRECT - Installs ONLY 1 skill
+npx skills add ComposioHQ/awesome-claude-skills/lead-research-assistant
+
+# ✅ CORRECT - Installs ONLY 1 skill
+npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection/obsidian-helper
+```
+
+### ❌ WRONG: Using --skill Flag
+
+**These commands will install ALL skills from the repository:**
+
+```bash
+# ❌ WRONG - Installs all 42 skills from softaworks
+npx skills add softaworks/agent-toolkit --skill=writing-clearly-and-concisely
+
+# ❌ WRONG - Installs all 28 skills from ComposioHQ
+npx skills add ComposioHQ/awesome-claude-skills --skill=lead-research-assistant
+
+# ❌ WRONG - Installs all 49 skills from ZhanlinCui
+npx skills add ZhanlinCui/Ultimate-Agent-Skills-Collection --skill=obsidian-helper
+```
+
+### Repository-Specific Path Formats
+
+Different repositories have different structures. Use these exact formats:
+
+| Repository | Path Format | Example |
+|------------|-------------|---------|
+| **softaworks/agent-toolkit** | `softaworks/agent-toolkit/skills/<skill-name>` | `softaworks/agent-toolkit/skills/draw-io` |
+| **ComposioHQ/awesome-claude-skills** | `ComposioHQ/awesome-claude-skills/<skill-name>` | `ComposioHQ/awesome-claude-skills/lead-research-assistant` |
+| **ZhanlinCui/Ultimate-Agent-Skills-Collection** | `ZhanlinCui/Ultimate-Agent-Skills-Collection/<skill-name>` | `ZhanlinCui/Ultimate-Agent-Skills-Collection/vercel-deploy` |
+| **anthropics/skills** | `anthropics/skills/skills/<skill-name>` OR install all 17 | `anthropics/skills` (recommended - all 17 are useful) |
+| **K-Dense-AI/claude-scientific-skills** | `K-Dense-AI/claude-scientific-skills/scientific-skills/<skill-name>` | Already uses path format (no issue) |
+| **ingpoc/SKILLS** | `ingpoc/SKILLS/<skill-name>` | `ingpoc/SKILLS/tufte-slide-design` |
+
+### RECOMMENDED INSTALLATION STRATEGY:
+
+1. **Use path-based installation** for all skills (as shown in the script above)
+2. **For anthropics/skills**: Install all 17 skills - they're all high quality
+3. **Expected final count**: ~40-45 core skills (not 120+)
+4. **AVOID** `davila7/claude-code-templates` entirely (613 skills)
+
+### Verification Commands:
+
+```bash
+# Check count after installation
+ls ~/.agents/skills/ | wc -l
+
+# Should show ~40-45 skills, NOT 120+
+
+# Check for broken symlinks
+find ~/.claude/skills -type l ! -exec test -e {} \; -print | wc -l
+
+# Should show 0
+```
+
+### Expected Final Counts by Category:
+
+- Literature Review: **7 skills**
+- Writing & Automation: **22 skills** (includes 17 from anthropics bundle)
+- Visualization: **11 skills** (includes 6 from nano-banana)
+- UI/UX: **3 skills**
+- Presentations: **2 skills** (theme-factory & pptx already in anthropics)
+- Development: **1 skill**
+
+**TOTAL: ~40-45 skills** ✅
+
+**IF COUNT EXCEEDS 60:** Something went wrong - you're using `--skill` flag instead of path-based installation!
