@@ -24,7 +24,7 @@ This comprehensive guide is tailored for high-rigor AI PhD workflows. It provide
 | **Research-Superpower** | `npx skills add kthorn/research-superpower` | [Link](https://github.com/kthorn/research-superpower) |
 | **Scientific Critical Thinking** | `npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-critical-thinking` | [Link](https://github.com/K-Dense-AI/claude-scientific-skills) |
 | **FireCrawl Research** | `npx skills add weklica/Firecrawl-cli` | [Link](https://github.com/weklica/Firecrawl-cli) |
-| **Find-Skills (Discovery)** | `npx skills add vercel-labs/skills` | [Link](https://skills.sh/vercel-labs/skills/find-skills) |
+| **Find-Skills (Discovery)** | `npx skills add https://github.com/vercel-labs/skills --skill find-skills` | [Link](https://skills.sh/vercel-labs/skills/find-skills) |
 | **Scientific Brainstorming** | `npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-brainstorming` | [Link](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/scientific-brainstorming) |
 
 ---
@@ -126,7 +126,7 @@ npx skills add kthorn/research-superpower
 npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-critical-thinking
 npx skills i K-Dense-AI/claude-scientific-skills/scientific-skills/scientific-brainstorming
 npx skills add weklica/Firecrawl-cli
-npx skills add vercel-labs/skills
+npx skills add https://github.com/vercel-labs/skills --skill find-skills
 
 # Writing, Editing & Automation
 # Browser-Use: Ask agent to look at https://docs.browser-use.com/llms-full.txt for setup
@@ -194,7 +194,6 @@ When installing skills from this document, be aware that the `--skill` flag does
 - `kthorn/research-superpower`
 - `K-Dense-AI/claude-scientific-skills/scientific-skills/*` (when using path-based selection)
 - `weklica/Firecrawl-cli`
-- `vercel-labs/skills`
 - `SipengXie2024/Helios-Writing`
 - `ShinChven/nano-banana-skills`
 - `ingpoc/SKILLS/*` (when using path-based selection)
